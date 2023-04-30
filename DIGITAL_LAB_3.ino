@@ -2,6 +2,7 @@ int ledPin1 = 7;
 int ledPin2 = 8;
 int ledPin3 = 9;
 int ledPin4 = 10;
+int ledPin5 = 11;
 
 int buttonPin1 = 33;
 int buttonPin2 = 34;
@@ -23,6 +24,7 @@ void setup() {
   pinMode(ledPin2, OUTPUT);
   pinMode(ledPin3, OUTPUT);
   pinMode(ledPin4, OUTPUT);
+  pinMode(ledPin5, OUTPUT);
 
   pinMode(buttonPin1, INPUT);
   pinMode(buttonPin2, INPUT);
